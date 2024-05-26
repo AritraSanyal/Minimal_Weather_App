@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:lottie/lottie.dart';
 import 'package:weather_minimal_app/model/weather_model.dart';
 import 'package:weather_minimal_app/services/weather_service.dart';
@@ -73,7 +72,7 @@ class _WeatherPageState extends State<WeatherPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 211, 211, 211),
+      backgroundColor: const Color.fromARGB(255, 211, 211, 211),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
